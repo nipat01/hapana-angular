@@ -59,7 +59,7 @@ export class AppComponent {
   }
 
   deleteChat(index: number) {
-    console.log(index);
+    console.log("index =>", index);
     if (index > -1) {
       this.chat.splice(index, 1);
     }
